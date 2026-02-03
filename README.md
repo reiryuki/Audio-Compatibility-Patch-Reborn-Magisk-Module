@@ -7,10 +7,10 @@
 - Some known audio mods that require disabling Compress Offload playback are Audio Wizard, Dolby Atmos that using OPSoundTuner, Dolby Atmos in Mi Sound, Sound Alive, and Sound Enhancement but you don't need to use this module for audio mod modules by Rei Ryuki the Fixer because Compress Offload and Ultra Low Latency (Raw) playback disabler is already included in those modules.
 
 ## Requirements
-- Magisk or KernelSU installed
+- Magisk or Kitsune Mask or KernelSU or Apatch installed
 
 ## Installation Guide & Download Link
-- Install this module https://www.pling.com/p/2206022/ via Magisk app or KernelSU app or Recovery if Magisk installed
+- Install this module https://www.pling.com/p/2206022/ via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - This is also an audio mod so, you need to install AML Magisk Module https://t.me/ryukinotes/34 if using any other else audio mod module
 - Reboot
 
