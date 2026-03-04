@@ -70,6 +70,3 @@ rm -rf /metadata/magisk/"$MODID"\
 }
 
 
-
-
-

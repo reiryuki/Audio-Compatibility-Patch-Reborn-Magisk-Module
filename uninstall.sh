@@ -15,7 +15,3 @@ set -x
 remove_sepolicy_rule
 
 
-
-
-
-

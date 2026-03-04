@@ -7,8 +7,11 @@ MODAPS=`find $MODPATH -type f -name *policy*.conf -o -name *policy*.xml`
 for MODAP in $MODAPS; do
   sed -i 's|COMPRESS_OFFLOAD|NONE|g' $MODAP
   sed -i 's|,compressed_offload||g' $MODAP
-#u  sed -i 's|RAW|NONE|g' $MODAP
-#u  sed -i 's|,raw||g' $MODAP
+  sed -i 's|compressed_offload,||g' $MODAP
+  sed -i 's|RAW|NONE|g' $MODAP
+  sed -i 's|,raw||g' $MODAP
+  sed -i 's|raw,||g' $MODAP
+  sed -i 's|FAST|NONE|g' $MODAP
 done
 
 
