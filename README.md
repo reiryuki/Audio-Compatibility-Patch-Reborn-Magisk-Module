@@ -2,7 +2,7 @@
 
 ## Descriptions
 - Disables Compress Offload, Ultra Low Latency (Raw), and Fast playback.
-- Does not disables Deep Buffer playback like the original Audio Compatibility Patch module.
+- Does not disable Deep Buffer playback like the original Audio Compatibility Patch module.
 - If an audio mod does not work because it cannot switch playback to Deep Buffer nor Primary automatically, then the alternative way is to disable Compress Offload playback.
 - Usually audio mods does not work in some game applications. By disabling Ultra Low Latency (Raw) and Fast playback, the audio mods can work in game applications.
 
