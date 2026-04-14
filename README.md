@@ -6,11 +6,30 @@
 - If an audio mod does not work because it cannot switch playback to Deep Buffer nor Primary automatically, then the alternative way is to disable Compress Offload playback.
 - Usually audio mods does not work in some game applications. By disabling Ultra Low Latency (Raw) and Fast playback, the audio mods can work in game applications.
 
+## Changelog
+
+v0.5
+- Change module name
+- Disables FAST playback
+- Remove disable.raw optional
+
+v0.4
+- Fix wrong target in latest KernelSU
+
+v0.3
+- Improve /odm and /my_product support detection
+
+v0.2
+- Fix bug in uninstall.sh
+
+v0.1
+- Initial release
+
 ## Requirements
 - Magisk or Kitsune Mask or KernelSU or Apatch installed
 
 ## Installation Guide & Download Link
-- Install this module https://www.pling.com/p/2206022/ via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - This is also an audio mod so, you need to install AML Magisk Module https://t.me/ryukinotes/34 if using any other else audio mod module
 - Reboot
 
